@@ -28,7 +28,7 @@ This folder includes python scripts used for the automatic elaboration of the pr
 6. main.py: is the main file used to launch the execution of the script.
 
 ## studies:
-This folder describe for each selected review in the study:
+This folder gives for each selected review in the study:
 
 1. All.bib: list of all the included papers by the review
 2. -Query.bib: list of papers not identified by the original query. References highlighted in red are missing from Semantic Scholar; those highlighted in yellow are found by the query but under a different research field than computer science; those highlighted in orange are also identified by the query but out oyear ranges specified in the review.
