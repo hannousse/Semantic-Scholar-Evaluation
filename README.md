@@ -18,9 +18,9 @@ This folder includes the set of obtained results:
 3. Metadata.bib: includes the metadata of all the included papers in the selected studies (Stduies.bib)
 
 ## scripts:
-This folder includes python scripts used for the automatic elaboratio n of the project:
+This folder includes python scripts used for the automatic elaboration of the project:
 
-1. bibtexloader.py: enabels loading bibtex files adn get needed information to be searched in the S2 dump
+1. bibtexloader.py: enabels loading bibtex files and get needed information to be searched in the S2 dump
 2. onto_handler.py: enabels cleaning cso.owl and tronsform it into appropriate json file
 3. locate_papers_in_corpus.py: implement the preliminary searches where papers are located in the corpus
 4. semantic_scholar_search.py: implement function to search in corpus within provided queries; it also imlement the snowballing process
