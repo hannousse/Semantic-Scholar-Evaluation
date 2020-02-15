@@ -1,6 +1,8 @@
 # Semantic-Scholar-Evaluation
 This project investigate the coverage and the role of Semantic Scholar (S2) search engine in condunting secondary studies in software engineering.
 
+For the execution of scripts, you have to download the S2 corpus from http://api.semanticscholar.org/corpus/download/ and put it in the following path: data/sscholardump/.
+
 The project contains 4 main folders:
 
 ## data:
