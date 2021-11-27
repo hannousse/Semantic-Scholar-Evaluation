@@ -39,3 +39,6 @@ This folder gives for each selected review in the study:
 2. -Query.bib: list of papers not identified by the original query. References highlighted in red are missing from Semantic Scholar; those highlighted in yellow are found by the query but under a different research field than computer science; those highlighted in orange are also identified by the query but out oyear ranges specified in the review.
 3. -Snowballing.bib: list of papers not identified after snowballing
 4. -Ontology.bib: list of papers not identified after searching with refined queries
+
+## datasets for automatic screening of papers:
+Each dataset incorporates the set of included studies for a specific SLR stated by the correspondent authors, extracted and saved in a readable format (.bib). In order to get a reasonable set of excluded studies, we applied the same query for each SLR into Scopus, we adopted the same inclusion criteria as mentioned in original SLRs: period, type and language of publications. The set of studies returned by Scopus and not included in SLRs are considered as excluded studies.
